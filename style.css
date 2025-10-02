@@ -1,3 +1,10 @@
 body{
     background-color: black;
 }
+.fondo-icono{
+    background-color: rgb(252, 249, 249);
+    padding: 8px 20px 8px 20px;
+}
+.fondo-div{
+    background-color: white;
+}
