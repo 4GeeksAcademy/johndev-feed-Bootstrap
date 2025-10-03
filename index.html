@@ -55,66 +55,161 @@
                     </div>
                 </div>
             </div>
-            <div class="dropdown me-3">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            <div class="btn-group me-2">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     <i class="fa-solid fa-gear"></i>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="fondo-div d-flex align-items-center justify-content-center">
-            <p class="d-inline-flex gap-1">
-                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix"
-                    aria-expanded="false" aria-controls="collapseExample">
-                    <i class="fa-solid fa-table-cells"></i>
-                </button>
-                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-                    aria-expanded="false" aria-controls="collapseExample">
-                    <i class="fa-solid fa-square"></i>
-                </button>
-            </p>
-        </div>
-        <div class="collapse container fondo-div" id="collapsesix">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY" class="img-fluid" alt="compu">
+        <div class="fondo-div">
+            <ul class="nav nav-tabs justify-content-center border-0" id="feed" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active border-0" id="cells-tab" data-bs-toggle="tab" data-bs-target="#cells"
+                        type="button">
+                        <i class="fa-solid fa-table-cells"></i>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link border-0" id="list-tab" data-bs-toggle="tab" data-bs-target="#list"
+                        type="button">
+                        <i class="fa-solid fa-square"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="feedContent">
+                <div class="tab-pane fade show active" id="cells">
+                    <div class="container p-2">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/900/200/200.jpg?hmac=ZrAJ9H_K0TLi9qA-7h0aKGGzI3tLtlu1lx6ntCljBfc&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                       <div class="card">
-                            <img src="https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY" class="img-fluid" alt="compu">
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/378/200/200.jpg?hmac=p3D7bBkZrx1JzS7apkMa8wGrQ-IaD9aNykMbpZ0DHDU&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY" class="img-fluid" alt="compu">
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/867/200/200.jpg?hmac=o_T4KIW6jPbGySRv8Em8TaP9PH_tgegfmPaYJJ394Y4&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/978/200/200.jpg?hmac=h9b7eQKX4lbS4Mwbqr-AkYHgvjigOrdECiTEtoboeME&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/908/200/200.jpg?hmac=CovMVsq4EkU03tnOxNLyxYsLlemPPHBizxcnmaHaRcU&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/12/200/200.jpg?hmac=cX-VZ_FED6NC7EKPOnEaNhQEKw6Dy85IfsKItBkkGWA&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/491/200/200.jpg?hmac=Zi1sOp0NH_d3eOa3qUg8-oDQJWvIkH8UkrAJZ7l-4wg&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card ratio ratio-1x1">
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/113/200/200.jpg?hmac=lMncqLZmsXtr3D92sy1GU_2v-kwHOS-UW2iS5p98WMU&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="img-fluid" alt="img">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        1 of 3
-                    </div>
-                    <div class="col-">
-                        2 of 3 (wider)
-                    </div>
-                    <div class="col">
-                        3 of 3
+
+                <div class="tab-pane fade" id="list">
+                    <div class="container align-items-center m-auto">
+                        <div class="row row-cols-1 m-auto col-md-6">
+                            <div class="col">
+                                <div class="card m-3">
+                                    <div class="card-body d-flex align-items-center">
+                                        <h5 class="card-titl me-auto">My beautiful hobby</h5>
+                                        <p class="fs-6">11/11</p>
+                                    </div>
+                                    <img src="https://fastly.picsum.photos/id/91/3504/2336.jpg?hmac=tK6z7RReLgUlCuf4flDKeg57o6CUAbgklgLsGL0UowU"
+                                        class="card-img" alt="image">
+                                    <div class="card-body">
+                                        <h6 class="card-title fw-bold">23 Likes</h6>
+                                        <p class="card-text">"Life is like a camera. Focus on what's important, capture
+                                            the good times, develop from the negative, and if things don't work out,
+                                            take another shot!"
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card m-3">
+                                    <div class="card-body d-flex align-items-center">
+                                        <h5 class="card-titl me-auto">Coffee is Life</h5>
+                                        <p class="fs-6">09/11</p>
+                                    </div>
+                                    <img src="https://fastly-picsum-photos.translate.goog/id/113/200/200.jpg?hmac=lMncqLZmsXtr3D92sy1GU_2v-kwHOS-UW2iS5p98WMU&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                                        class="card-img" alt="image">
+                                    <div class="card-body">
+                                        <h6 class="card-title fw-bold">30.000 Likes</h6>
+                                        <p class="card-text">Coffee provides various health benefits, including enhanced
+                                            cognitive function, improved physical performance, and a lower risk of
+                                            chronic diseases like type 2 diabetes, Parkinson's, Alzheimer's, and certain
+                                            cancers and liver diseases
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card m-3">
+                                    <div class="card-body d-flex align-items-center">
+                                        <h5 class="card-titl me-auto">Geography of the world</h5>
+                                        <p class="fs-6">05/11</p>
+                                    </div>
+                                    <img src="https://fastly.picsum.photos/id/905/200/300.jpg?hmac=uLUlIwyKcu9AtTY3uOL04O0gbesMVu-yNVRvCsF1xD8"
+                                        class="card-img" alt="image">
+                                    <div class="card-body">
+                                        <h6 class="card-title fw-bold">3000 Likes</h6>
+                                        <p class="card-text">The geography of Norway is dominated by vast mountain
+                                            ranges broken up by valleys and fjords. Less than 3% of the country's area
+                                            is arable, and the rest is mountainous. Glaciers are the major cause for
+                                            erosion, so the terrain in the Norwegian mountains consists of plateaus and
+                                            lakes with peaks. These areas have an abundant and diverse fauna and flora.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>
